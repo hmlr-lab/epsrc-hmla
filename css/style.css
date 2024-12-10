@@ -114,7 +114,20 @@
     color: var(--primary);
 }
 
+
+@media screen and (max-width: 1250px) {
+    #htext {
+      font-size: 1.0em;
+    }
+  }
+  @media screen and (max-width: 1100px) {
+    #htext {
+      font-size: 0.7em;
+    }
+  }
+
 @media (max-width: 991.98px) {
+   
     .nav-bar {
         padding: 0;
     }
@@ -132,6 +145,7 @@
 }
 
 @media (min-width: 992px) {
+   
     .navbar .nav-item .dropdown-menu {
         display: block;
         border: none;
@@ -179,6 +193,7 @@
 }
 
 @media (max-width: 768px) {
+   
     .header-carousel .owl-carousel-item {
         position: relative;
         min-height: 500px;
